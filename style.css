@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+/* Logo styles */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Navigation bar */
+nav {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out;
+}
+
+nav {
+    margin-top: 20px;
+    padding: 15px 30px; 
+    border-radius: 30px;
+    background: linear-gradient(145deg, #333, #333);
+    border: 1px solid #333; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    transition: all 0.3s ease-in-out; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+    transition: color 0.3s ease, transform 0.3s ease, padding 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f1bb91;
+    transform: scale(1.1);
+    padding-bottom: 5px;
+    border-bottom: 3px solid #f1bb91;
+}
+
+.nav-links a:focus {
+    outline: 3px solid #f1bb91;
+    outline-offset: 4px;
+}
+
+nav:hover {
+    background: linear-gradient(145deg, #d25d0a, #d25d0a);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Promo Banner*/
+.promo-banner {
+    position: relative; 
+    text-align: center;
+    padding: 60px 20px;
+    color: #ffffff;
+    background-image: url('salon2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+}
+
+.promo-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(251, 244, 244, 0.5);
+    z-index: -1;
+}
+
+.promo-banner h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8); 
+    margin-bottom: 15px;
+}
+
+.promo-banner h2 {
+    font-size: 2rem;
+    color: #333c;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.promo-banner p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #030000;
+}
+
+/* Services */
+.services {
+    display: flex;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.service {
+    flex: 1;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.service img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.service h2 {
+    margin: 15px 0 10px;
+    color: #ff6347;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    width: 80%;
+    align-self: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-logo img {
+    height: 20px;
+    width: auto;
+}
+
+.footer-copy {
+    text-align: right;
+}
+
